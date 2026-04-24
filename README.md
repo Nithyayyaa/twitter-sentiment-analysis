@@ -49,15 +49,15 @@ performance on this imbalanced dataset.
 
 ## Repository Structure
 
+```
 ├── notebooks/
 │   ├── Schmaltz-Surveyor.ipynb       Main classifier comparison
-│   ├── data_exploration.ipynb         EDA, word clouds, hashtag analysis
-│   └── final_model.ipynb              Final Random Forest training
 ├── webapp/                            Flask app for live prediction
 ├── data/sample_tweets.csv             Sample from training dataset
 └── report/
 ├── project_report.pdf             Full methodology and results
 └── presentation.pdf               Project presentation
+```
 
 ## Running Locally
 
@@ -95,20 +95,3 @@ This was a 4-person group project (IS6C06 Minor Project, NIE Mysuru,
 
 **Nithyashree Arunachalam**  
 Master's student in Data & Knowledge Engineering, OvGU Magdeburg
-
-## My Contributions
-
-This was a 4-person group project (IS6C06 Minor Project, NIE Mysuru, 2021–22). 
-My specific contributions:
-
-- **Text preprocessing pipeline** — regex-based cleaning, Porter stemming, 
-  NLTK stopword removal, and TF-IDF vectorization
-- **Classifier training** — implementation and evaluation of SVM (RBF kernel), 
-  Logistic Regression, KNN, and Random Forest using scikit-learn
-- **Model comparison and selection** — accuracy benchmarking and 
-  TPR/TNR confusion matrix analysis; Random Forest selected based on 
-  best balanced performance
-- **Documentation** — methodology write-up and results comparison
-
-**Team:** Nithyashree Arunachalam · Pradyoth P · Shashank BU · Tejasvini SJ  
-**Guide:** Mrs. Nandini BM, Assistant Professor, Dept. of ISE
