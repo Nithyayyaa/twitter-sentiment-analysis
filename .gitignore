@@ -13,8 +13,8 @@ venv/
 *.h5
 
 # Full dataset (sample only is pushed)
-train.csv
-test.csv
+/train.csv
+/test.csv
 
 # OS
 .DS_Store
