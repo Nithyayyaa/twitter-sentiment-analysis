@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+venv/
+.env
+
+# Model files (regenerable from notebooks)
+*.pickle
+*.pkl
+*.joblib
+*.h5
+
+# Full dataset (sample only is pushed)
+train.csv
+test.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.drawio
